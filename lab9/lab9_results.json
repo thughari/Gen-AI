@@ -1,0 +1,32 @@
+{
+  "How do I file a cashless hospital claim?": {
+    "top_doc": "H002",
+    "score": 0.7446,
+    "latency_ms": 405.3
+  },
+  "What is the no claim bonus for motor insurance?": {
+    "top_doc": "M003",
+    "score": 0.5321,
+    "latency_ms": 505.2
+  },
+  "Is my car engine covered if flooded during monsoon?": {
+    "top_doc": "M006",
+    "score": 0.7409,
+    "latency_ms": 393.5
+  },
+  "What documents are needed to claim life insurance after death?": {
+    "top_doc": "L004",
+    "score": 0.8526,
+    "latency_ms": 99.6
+  },
+  "What is the free look cancellation period for life insurance?": {
+    "top_doc": "L005",
+    "score": 0.5941,
+    "latency_ms": 156.7
+  },
+  "What is the capital of france": {
+    "top_doc": "H002",
+    "score": 1.7647,
+    "latency_ms": 376.6
+  }
+}

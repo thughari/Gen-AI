@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "query_id": "Q1",
+      "question": "What is the waiting period for pre-existing diseases?",
+      "expected": "36 months",
+      "results_by_size": {
+        "256": {
+          "answer": "The waiting period for pre-existing diseases is 36 months from the policy inception date.",
+          "context_tokens": 207,
+          "latency_s": 0.72,
+          "found": true,
+          "score": 1
+        },
+        "512": {
+          "answer": "The waiting period for pre-existing diseases is 36 months from the policy inception date.",
+          "context_tokens": 207,
+          "latency_s": 0.88,
+          "found": true,
+          "score": 1
+        }
+      }
+    },
+    {
+      "query_id": "Q2",
+      "question": "What is the maternity coverage amount",
+      "expected": "Rs 50,000",
+      "results_by_size": {
+        "256": {
+          "answer": "NOT FOUND",
+          "context_tokens": 207,
+          "latency_s": 0.42,
+          "found": false,
+          "score": 0
+        },
+        "512": {
+          "answer": "NOT FOUND",
+          "context_tokens": 207,
+          "latency_s": 0.61,
+          "found": false,
+          "score": 0
+        }
+      }
+    },
+    {
+      "query_id": "Q3",
+      "question": "How many days after discharge can reimbursment claims be submitted?",
+      "expected": "30 days",
+      "results_by_size": {
+        "256": {
+          "answer": "Reimbursement claims can be submitted within 30 days of discharge.",
+          "context_tokens": 207,
+          "latency_s": 0.85,
+          "found": true,
+          "score": 1
+        },
+        "512": {
+          "answer": "Reimbursement claims can be submitted within 30 days of discharge.",
+          "context_tokens": 207,
+          "latency_s": 0.58,
+          "found": true,
+          "score": 1
+        }
+      }
+    }
+  ]
+}
